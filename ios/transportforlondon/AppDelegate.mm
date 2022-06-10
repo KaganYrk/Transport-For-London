@@ -54,7 +54,6 @@
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   [super application:application didFinishLaunchingWithOptions:launchOptions];
-  [RNSplashScreen show];
   return YES;
 }
 

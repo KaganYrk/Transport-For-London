@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* transportforlondonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* transportforlondonTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-transportforlondon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-transportforlondon.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		5ADCE4F04925EC1B393ECAE5 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714B7B502174E9CD774E5407 /* ExpoModulesProvider.swift */; };
-		7699B88040F8A987B510C191 /* libPods-transportforlondon-transportforlondonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-transportforlondon-transportforlondonTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B3F90C91800E3413B93BB1FF /* libPods-transportforlondon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EA475764761DFCA1684054 /* libPods-transportforlondon.a */; };
 		BAA4267928513234003D7BB2 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4266928513234003D7BB2 /* Fontisto.ttf */; };
 		BAA4267A28513234003D7BB2 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4266A28513234003D7BB2 /* Octicons.ttf */; };
 		BAA4267B28513234003D7BB2 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4266B28513234003D7BB2 /* Feather.ttf */; };
@@ -32,6 +31,7 @@
 		BAA4268728513234003D7BB2 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4267728513234003D7BB2 /* SimpleLineIcons.ttf */; };
 		BAA4268828513234003D7BB2 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4267828513234003D7BB2 /* MaterialIcons.ttf */; };
 		C6F44562BB6BBE53F2C54138 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5807908945F5CB79B3F2F3A0 /* ExpoModulesProvider.swift */; };
+		C73E2DC00A6CA0B14E7BFB97 /* libPods-transportforlondon-transportforlondonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE1420DE34FA78E357768EB /* libPods-transportforlondon-transportforlondonTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,21 +48,20 @@
 		00E356EE1AD99517003FC87E /* transportforlondonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transportforlondonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* transportforlondonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transportforlondonTests.m; sourceTree = "<group>"; };
+		04271F17C3C62BFB874E5837 /* Pods-transportforlondon-transportforlondonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transportforlondon-transportforlondonTests.debug.xcconfig"; path = "Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AE1420DE34FA78E357768EB /* libPods-transportforlondon-transportforlondonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-transportforlondon-transportforlondonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* transportforlondon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transportforlondon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = transportforlondon/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = transportforlondon/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = transportforlondon/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = transportforlondon/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = transportforlondon/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-transportforlondon-transportforlondonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-transportforlondon-transportforlondonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-transportforlondon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transportforlondon.debug.xcconfig"; path = "Target Support Files/Pods-transportforlondon/Pods-transportforlondon.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-transportforlondon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transportforlondon.release.xcconfig"; path = "Target Support Files/Pods-transportforlondon/Pods-transportforlondon.release.xcconfig"; sourceTree = "<group>"; };
 		5807908945F5CB79B3F2F3A0 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-transportforlondon/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-transportforlondon-transportforlondonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transportforlondon-transportforlondonTests.debug.xcconfig"; path = "Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-transportforlondon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-transportforlondon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		714B7B502174E9CD774E5407 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-transportforlondon-transportforlondonTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = transportforlondon/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-transportforlondon-transportforlondonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transportforlondon-transportforlondonTests.release.xcconfig"; path = "Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC47AE7F7ABC451710E1202 /* Pods-transportforlondon-transportforlondonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transportforlondon-transportforlondonTests.release.xcconfig"; path = "Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests.release.xcconfig"; sourceTree = "<group>"; };
+		98B67A6C5427A7F59BB4847F /* Pods-transportforlondon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transportforlondon.release.xcconfig"; path = "Target Support Files/Pods-transportforlondon/Pods-transportforlondon.release.xcconfig"; sourceTree = "<group>"; };
+		A7EA475764761DFCA1684054 /* libPods-transportforlondon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-transportforlondon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA4266928513234003D7BB2 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		BAA4266A28513234003D7BB2 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		BAA4266B28513234003D7BB2 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
@@ -80,6 +79,7 @@
 		BAA4267728513234003D7BB2 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		BAA4267828513234003D7BB2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDCF61065B45934F11EF4DEA /* Pods-transportforlondon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-transportforlondon.debug.xcconfig"; path = "Target Support Files/Pods-transportforlondon/Pods-transportforlondon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-transportforlondon-transportforlondonTests.a in Frameworks */,
+				C73E2DC00A6CA0B14E7BFB97 /* libPods-transportforlondon-transportforlondonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-transportforlondon.a in Frameworks */,
+				B3F90C91800E3413B93BB1FF /* libPods-transportforlondon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-transportforlondon.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-transportforlondon-transportforlondonTests.a */,
+				A7EA475764761DFCA1684054 /* libPods-transportforlondon.a */,
+				0AE1420DE34FA78E357768EB /* libPods-transportforlondon-transportforlondonTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,10 +217,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-transportforlondon.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-transportforlondon.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-transportforlondon-transportforlondonTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-transportforlondon-transportforlondonTests.release.xcconfig */,
+				EDCF61065B45934F11EF4DEA /* Pods-transportforlondon.debug.xcconfig */,
+				98B67A6C5427A7F59BB4847F /* Pods-transportforlondon.release.xcconfig */,
+				04271F17C3C62BFB874E5837 /* Pods-transportforlondon-transportforlondonTests.debug.xcconfig */,
+				8EC47AE7F7ABC451710E1202 /* Pods-transportforlondon-transportforlondonTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -249,12 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "transportforlondonTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				087C8FECF4F1515A516B4CDB /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				84FD08BAA1F921CC835B26BA /* [CP] Embed Pods Frameworks */,
+				58148F36C81F827834572517 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,14 +270,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "transportforlondon" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				46E8E826AEF113782C54251E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				C01225DF13F5707AAF1F5EDD /* [CP] Embed Pods Frameworks */,
+				08E3E158BEF9BF411A840A9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -374,24 +374,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		087C8FECF4F1515A516B4CDB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,7 +396,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		08E3E158BEF9BF411A840A9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E8E826AEF113782C54251E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -435,7 +435,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		58148F36C81F827834572517 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84FD08BAA1F921CC835B26BA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,38 +469,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		C01225DF13F5707AAF1F5EDD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transportforlondon-transportforlondonTests/Pods-transportforlondon-transportforlondonTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-transportforlondon/Pods-transportforlondon-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -540,7 +540,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-transportforlondon-transportforlondonTests.debug.xcconfig */;
+			baseConfigurationReference = 04271F17C3C62BFB874E5837 /* Pods-transportforlondon-transportforlondonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -568,7 +568,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-transportforlondon-transportforlondonTests.release.xcconfig */;
+			baseConfigurationReference = 8EC47AE7F7ABC451710E1202 /* Pods-transportforlondon-transportforlondonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -593,7 +593,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-transportforlondon.debug.xcconfig */;
+			baseConfigurationReference = EDCF61065B45934F11EF4DEA /* Pods-transportforlondon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -620,7 +620,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-transportforlondon.release.xcconfig */;
+			baseConfigurationReference = 98B67A6C5427A7F59BB4847F /* Pods-transportforlondon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
