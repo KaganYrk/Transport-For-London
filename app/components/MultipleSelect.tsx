@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Dimensions, StyleProp, StyleSheet, TextStyle, TouchableOpacity, View, ViewStyle } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
-import Icon from 'react-native-vector-icons/AntDesign';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import Button from './Button';
 import Text from './Text';
 
@@ -12,7 +12,7 @@ export const Style = StyleSheet.create({
   button: { height: 60, width: '100%', flexDirection: 'row', backgroundColor: 'gray', alignItems: 'center', borderRadius: 5 },
   listContainer: { position: 'absolute', zIndex: 10, maxHeight: Dimensions.get('window').height - 200 },
 });
-const AnimatedIcon = Animated.createAnimatedComponent(Icon);
+const AnimatedIcon = Animated.createAnimatedComponent(AntDesign);
 const List = ({ data, scrollEnabled, listContainerStyle, visible, setVisible, displayedRowItemValue, selectedObjects, onSelect, setSelectedObjects, rowStyle, textStyle }: IList) =>
   (visible ?
     (

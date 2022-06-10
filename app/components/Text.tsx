@@ -5,7 +5,7 @@ export default class Text extends React.PureComponent<IText & TextProps> {
   render(): ReactNode {
     const { type, style, children, props } = this.props;
     return (
-      <BasicText adjustsFontSizeToFit style={[{ fontFamily: type, includeFontPadding: false }, style]} {...props}>
+      <BasicText adjustsFontSizeToFit style={[{ fontFamily: type, includeFontPadding: false, color: 'black' }, style]} {...props}>
         {children}
       </BasicText>
     );

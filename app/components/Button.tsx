@@ -7,17 +7,19 @@ const styles = StyleSheet.create({
   buttonStyle: { height: 60, borderRadius: 12, justifyContent: 'center' },
 });
 
-export default function Button({ children, type = 'medium', onPress, style, containerStyle, props, title, textStyle }: IButton) {
+export default function Button({ children, onPress, style, containerStyle, props, title, textStyle, buttonInContainerStyle }: IButton) {
   return (
     <View style={containerStyle}>
       {/* @ts-ignore */}
       <TouchableWithoutFeedback style={[styles.buttonStyle, style]}>
         <BorderlessButton rippleColor="black" {...props} style={[styles.buttonStyle, style]} onPress={onPress}>
-          <View style={[{ alignItems: 'center', marginHorizontal: 32 }]} accessible accessibilityRole="button">
+          <View style={[{ alignItems: 'center', marginHorizontal: 32 }, buttonInContainerStyle]} accessible accessibilityRole="button">
             {children}
+            {title && (
             <Text adjustsFontSizeToFit={false} style={[{ fontSize: 16, textAlign: 'center' }, textStyle]}>
               {title}
             </Text>
+            )}
           </View>
         </BorderlessButton>
       </TouchableWithoutFeedback>
@@ -25,12 +27,12 @@ export default function Button({ children, type = 'medium', onPress, style, cont
   );
 }
 interface IButton {
-    type?: 'medium' | 'small',
-    title?: string,
-    onPress?: () => void,
-    style?: StyleProp<ViewStyle>,
-    textStyle?: StyleProp<TextStyle>
-    containerStyle?: StyleProp<ViewStyle>,
-    children?: React.ReactNode,
-    props?: TextProps
+  title?: string,
+  onPress?: () => void,
+  style?: StyleProp<ViewStyle>,
+  textStyle?: StyleProp<TextStyle>
+  containerStyle?: StyleProp<ViewStyle>,
+  buttonInContainerStyle?: StyleProp<ViewStyle>,
+  children?: React.ReactNode,
+  props?: TextProps
 }

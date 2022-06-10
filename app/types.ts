@@ -179,3 +179,87 @@ export interface LineModeGroup {
     modelName: string,
     lineIdentifier: string[]
 }
+
+export interface Tfl23 {
+    lineId?: string;
+    lineName?: string;
+    direction?: string;
+    isOutboundOnly?: boolean;
+    mode?: string;
+    lineStrings?: string[];
+    stations?: any;// unnecessary data
+    stopPointSequences?: Tfl21[];
+    orderedLineRoutes?: any; // unnecessary data
+}
+
+export interface Tfl21 {
+    lineId?: string;
+    lineName?: string;
+    direction?: string;
+    branchId?: number;
+    nextBranchIds?: number[];
+    prevBranchIds?: number[];
+    stopPoint?: Tfl20[]
+    serviceType?: string;
+}
+
+export interface Tfl20 {
+    routeId?: number;
+    parentId?: string;
+    stationId?: string;
+    icsId?: string;
+    topMostParentId?: string;
+    direction?: string;
+    towards?: string;
+    modes?: string[];
+    stopType?: string;
+    stopLetter?: string;
+    zone?: string;
+    accessibilitySummary?: string;
+    hasDisruption?: boolean;
+    lines?: any; // unnecessary data
+    status?: boolean;
+    id?: string;
+    url?: string;
+    name?: string;
+    lat?: number;
+    lon?: number;
+}
+
+export interface Tfl39 {
+    lineId?: string;
+    lineName?: string;
+    direction?: string;
+    pdfUrl?: string;
+    stations?: Tfl20[];
+    stops?: Tfl20[];
+    timetable?: Tfl36;
+    disambiguation?: any; // unnecessary data
+    statusErrorMessage?: string;
+}
+
+export interface Tfl36 {
+    departureStopId: string
+    routes: Tfl35[]
+
+}
+
+export interface Tfl35 {
+    stationIntervals: any, // unnecessary data
+    schedules: Tfl34[]
+}
+
+export interface Tfl34 {
+    name: string
+    knownJourneys: Tfl30[]
+    firstJourney: Tfl30
+    lastJourney: Tfl30
+    periods: any // unnecessary data
+}
+
+export interface Tfl30 {
+    hour: string
+    minute: string,
+    intervalId: number
+
+}

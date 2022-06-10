@@ -7,7 +7,8 @@ export default function Layout({ children, scroll, style, backgroundColor, statu
   if (scroll) {
     return (
       <View style={{ flex: 1, backgroundColor: statusBarColor }}>
-        <StatusBar backgroundColor={statusBarColor} />
+        <StatusBar animated translucent backgroundColor={statusBarColor} />
+
         <ScrollView style={[{ backgroundColor }, style]}>
           {children}
         </ScrollView>
@@ -16,8 +17,8 @@ export default function Layout({ children, scroll, style, backgroundColor, statu
   }
   return (
     <View style={{ flex: 1, backgroundColor: statusBarColor }}>
-      <StatusBar backgroundColor={statusBarColor} />
-      <View style={[{ flex: 1, marginTop: headerless ? 0 : insets.top, backgroundColor }, style]}>
+      <StatusBar animated translucent backgroundColor={statusBarColor} />
+      <View style={[{ flex: 1, marginTop: headerless ? insets.top : 0, backgroundColor }, style]}>
         {children}
       </View>
     </View>
